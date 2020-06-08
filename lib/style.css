@@ -237,15 +237,14 @@ body { margin: 0; }
 }
 
 .card:hover img {    
-  filter: blur(.1px);
+  filter: contrast(1);
 }
 
 .card img {
   width: 315px;
   height: 172px;
   border-radius: 10px;
-  filter: blur(2px);
-  opacity: .5;
+  filter: contrast(0.3);
   transition: .7s ease all;
 }
 
@@ -296,6 +295,14 @@ body { margin: 0; }
   opacity: 1;
 }
 
+#spnTop{
+  position: fixed;
+  bottom: 1rem;
+  top: auto;
+  right: 1rem;
+  text-align: center;
+}
+
 .lightNav{
   transition: 0.3s;
   border-radius: 5px;
@@ -321,8 +328,7 @@ body { margin: 0; }
 .lightNav:hover{
   /* box-shadow: 0 0 16px white;*/
   background-color: #ffeeeedb;
-  border-radius: .1px;
-  color: white !important;
+  color: white;
   
 }
 
@@ -391,7 +397,7 @@ body { margin: 0; }
   }
 }
 
-#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10, #pageCard1, #pageCard2, #pageCard3 {
+#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10, #pageCard1, #pageCard2, #pageCard3, #pageCard4, #pageCard5, #pageCard6, #pageCard7, #pageCard8, #pageCard9, #pageCard10, #pageCard11, #pageCard12 {
   opacity: 0;
   /* transform: scale(.95); */
 }
@@ -403,15 +409,15 @@ body { margin: 0; }
   }
 }
 
-#card1, #pageCard1{
+#card1, #pageCard1, #pageCard4, #pageCard7, #pageCard10{
   animation: cardseq .5s forwards;
   animation-delay: .25s;
 }
-#card2, #pageCard2{
+#card2, #pageCard2, #pageCard5, #pageCard8, #pageCard11{
   animation: cardseq .5s forwards;
   animation-delay: .5s;
 }
-#card3, #pageCard3{
+#card3, #pageCard3, #pageCard6, #pageCard9, #pageCard12{
   animation: cardseq .5s forwards;
   animation-delay: .75s;
 }
@@ -452,6 +458,7 @@ body { margin: 0; }
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
   supported by Chrome and Opera */
+  transition: initial;
 }
 
 .skill-card{
@@ -491,6 +498,14 @@ body { margin: 0; }
   cursor: move;
 }
 
+
+#gamesConent, #graphicsContent, #itContent, #webContent, #skillsContent {
+  display: none;
+}
+
+.lighten {
+  filter: brightness(1.2);
+}
 
 /* .modal-body {
   background: linear-gradient(45deg, #e7e7e7, transparent);
