@@ -194,7 +194,7 @@ hr {
   position: relative;
   z-index: 99;
   min-height: 35rem;
-  border: 2rem solid rgb(112, 127, 155);
+  border: .2rem solid rgb(112, 127, 155);
   border-radius: 10px;
 }
 
