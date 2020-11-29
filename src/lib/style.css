@@ -57,7 +57,7 @@ body {
   font-weight: normal;
   padding: initial;
   font-size: 21px;
-  background: #4d4d4d;
+  background: #f2f2f2;
 }
 
 a{
@@ -189,13 +189,10 @@ hr {
 
 .main{
   color: gray;
-  max-width: 95%;
-  max-width: 80%;
+
   position: relative;
   z-index: 99;
   min-height: 35rem;
-  border: .2rem solid rgb(112, 127, 155);
-  border-radius: 10px;
 }
 
 .main-inner {
@@ -209,15 +206,11 @@ div#appendToggleContainers{
   min-height: 18rem;
 }
 
-.main-container{
-  padding: 3rem 0;
-}
-
 .footer{
   color: #818181;
   position: relative;
   text-align: center;
-  background: rgb(227, 227, 227);
+  background: #eaeaea;
   opacity: 0.7;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
