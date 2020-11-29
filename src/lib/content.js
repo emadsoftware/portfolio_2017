@@ -12,14 +12,14 @@ $(document).ready(function(){
                   <div tabindex="1" data-toggle="modal" data-target="#myModal" class="card card-1" id="card1">
                      <img src="images/messageBoardV4-3.png" alt="Programming Showcase">
                      <div class="cardcontainer">
-                        <span class="cardSubTitle">Programming Showcase</span>
+                        <span class="cardSubTitle">Message Board App</span>
                         <p>PHP + MySQL + HTML+ CSS + JS/JQUERY</p>
                      </div>
                   </div>           
                   <div tabindex="1" data-toggle="modal" data-target="#myModal2" class="card card-2" id="card2">
                      <img src="images/codedrop_preview.png" alt="Programming Showcase">
                      <div class="cardcontainer">
-                        <span class="cardSubTitle">Programming Showcase</span>
+                        <span class="cardSubTitle">Code Sharing App</span>
                         <p>PHP + MySQL + Bootstrap</p>
                      </div>
                   </div> 
@@ -186,7 +186,7 @@ $(document).ready(function(){
     <div tabindex="1" class="card card-1" id="pageCard7" data-toggle="modal" data-target="#myModal">
     <img src="images/messageBoardV4-3.png" alt="Message Board" >
     <div class="cardcontainer">
-    <span class="cardSubTitle">Custom Message Board</span>
+    <span class="cardSubTitle">Message Board App</span>
     <p>PHP + MySQL + HTML+ CSS + JS/JQUERY
     </p>
     </div>
@@ -432,7 +432,7 @@ $(document).ready(function(){
     <div class="modal-content modal-dialog-centered ">
     <div class="modal-header cust-modal-header">
     <button type="button" class="btn close" data-dismiss="modal">&times;</button>
-    <h2>Custom Message Board</h2>
+    <h2>Message Board App</h2>
     </div>
     <div class="modal-body">
     <h3>A built-from-scratch message board built using basic PHP + MySQL</h3>
@@ -460,7 +460,7 @@ $(document).ready(function(){
     <div class="modal-content modal-dialog-centered ">
     <div class="modal-header cust-modal-header">
     <button type="button" class="btn close" data-dismiss="modal">&times;</button>
-    <h2>CodeDrop Web App</h2>
+    <h2>Code Sharing App</h2>
     </div>
     <div class="modal-body">
     <h3>A pastebin clone built using basic PHP + MySQL + JQuery + Bootstrap</h3>
