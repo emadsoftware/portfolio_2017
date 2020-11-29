@@ -390,15 +390,15 @@ top: 0;
   color: #5b5b5b;
   text-decoration: none;
   background-color: white;
-  color: gray;
+  color: white;
   border-color: silver;
   display: block;
-  margin: 5px;
+  margin: 5px auto;
 }
 
 .button-mobile:hover{
   background-color: white;
-  color: gray;
+  color: #bcbcbc;
   border-color: silver;
 }
 
@@ -411,6 +411,9 @@ top: 0;
   .card img {
     width: 100%;
     height: auto;
+  }
+  .headerspan1 img {
+    max-width: 55px;
   }
 }
 
@@ -522,7 +525,7 @@ top: 0;
 .skill-card{
   padding: 10px;
   text-align: center;
-  min-width: unset;
+  min-width: 100px;
 }
 
 .skill-font{
