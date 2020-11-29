@@ -11,7 +11,6 @@ const clean = () => del([ 'docs' ]);
 
 function html(){
     return src('src/**/*.{htm,html}')
-        .pipe(minifyHTML())
         .pipe(dest('docs/'));
 }
 
