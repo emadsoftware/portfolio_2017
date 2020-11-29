@@ -166,12 +166,14 @@ $(document).ready(function(){
     </p>
     </div>
     </div>
-    
-    </div>   
 
     <div class="sub-space">
     <p>Creative works that are neither web development nor web design related can be found here.</p>
     </div>
+    
+    </div>   
+
+    
 
     <!-- end -->
     </div>
@@ -215,12 +217,14 @@ $(document).ready(function(){
     </p>
     </div> 
     </div> -->
-    
-    </div>
-    
+
     <div class="sub-space">
     <p>Web Development: Programming / script related work. A select few projects will be featured on this page. These are just some examples of creative code related projects I wish to present.</p>
     </div>
+
+    </div>
+    
+
     
 
     <!-- end -->
@@ -264,28 +268,30 @@ $(document).ready(function(){
        </p>
        </div>
        </div> -->
+
+       <div class="sub-space">
+       <p>Being the graphics designer and administrator of a gaming website has given me experience in designing simple yet tasteful themes and layouts for various websites and web design projects. In this page a select few will be featured.</p>
+       </div>
     
     </div>
     
-    <div class="sub-space">
-    <p>Being the graphics designer and administrator of a gaming website has given me experience in designing simple yet tasteful themes and layouts for various websites and web design projects. In this page a select few will be featured.</p>
-    </div>
+
     
     <div id="webPageContentContainer" style="display:none;">
     
        <div id="card10Link"></div>
-       <span id="icysubtitle">Animal Conservation Theme</span><br>
+       <span class="icysubtitle">Animal Conservation Theme</span><br>
        Normal view of a website on animal conservation. I\'ve made a flexible css web layout for my Web Design class.<br>
        <img class="dispimg" src="images/ViewOne.png" /><br>
        <br><br>
     
-       <span id="icysubtitle">Animal Conservation Theme (Flex View)</span><br>
+       <span class="icysubtitle">Animal Conservation Theme (Flex View)</span><br>
        The flex view hides the menu and re-sizes the text for mobile friendly use.<br>
        <img class="dispimg"  src="images/viewTwo.png" /><br>
        <br><br>
     
        <div id="card11Link"></div>
-       <span id="icysubtitle">Joomla! Theme</span><br>
+       <span class="icysubtitle">Joomla! Theme</span><br>
        A hand made Joomla! CMS theme made from the ground up. Supports multiple module placement.<br>
        <img class="dispimg" src="images/wptheme01.png" /><br>
        <br><br>
@@ -293,12 +299,12 @@ $(document).ready(function(){
        <br><br>
     
        <div id="card12Link"></div>
-       <span id="icysubtitle">Gaming Site Theme</span><br>
+       <span class="icysubtitle">Gaming Site Theme</span><br>
        The below image is taken from a layout I created around 2005 for a website called X3Gen. Again, I made this using Dreamweaver and Photoshop.<br>
        <img class="dispimg" src="images/layout2.png" /><br>
        <br><br>
     
-       <span id="icysubtitle">Liquid FX</span><br>
+       <span class="icysubtitle">Liquid FX</span><br>
        The image below is taken from a layout I made to sell. The website was a nonexistent "Liquid Fx".<br>
        <img class="dispimg" src="images/layout3.png" /><br>
        <br><br>
@@ -308,6 +314,7 @@ $(document).ready(function(){
     <!-- end -->
     </div>
     <div id="skillsContent">
+      <div class="cardContainer">
     <!-- start -->
     
     <div class="card card-1 skill-card">
@@ -382,25 +389,25 @@ $(document).ready(function(){
     
     <p>
     
-    <span id="icysubtitle">Programming experience</span><br>
+    <span class="icysubtitle">Programming experience</span><br>
     
     - C++, Java, PHP, CFML (Coldfusion), MySQL, HTML, CSS, JS, Linux Command Line, Actionscript, SourceTree, GitKraken, Drupal (Twig) 
     
     <br><br>
     
-    <span id="icysubtitle">Graphic experience</span><br>
+    <span class="icysubtitle">Graphic experience</span><br>
     
     - Adobe (Photoshop, Dreamweaver, Animate), Blender3D, Cinema 4D, 3DSM 
     
     <br><br>
     
-    <span id="icysubtitle">Software experience</span><br>
+    <span class="icysubtitle">Software experience</span><br>
     
     - IIS (Windows Server), Apache Solr, VM, RemoteDesktop, Windows, Mac, Linux, Ubuntu, MS Office (Project, Word, Excel, Access, Powerpoint), Minitab, Wireshark
     
     <br><br>
     
-    <span id="icysubtitle">Other</span><br>
+    <span class="icysubtitle">Other</span><br>
     
     - Typing speed 80WPM
     
@@ -409,7 +416,7 @@ $(document).ready(function(){
     </p>
     
     <!-- end -->
-    </div>
+    </div> </div>
     `;
     document.getElementById('appendToggleContainers').innerHTML = htmlChunk;
  };

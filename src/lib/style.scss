@@ -108,7 +108,7 @@ hr {
   background: #3170a3;
   color: white;
   padding-top: 15px;
-  background-image: linear-gradient(to right, rgb(88, 105, 127), hsla(222, 48%, 37%, 0.259), rgb(88, 105, 127)), url(../images/bg2.png);
+  background-image: linear-gradient(to right, rgb(88, 105, 127), hsla(222, 48%, 37%, 0.259), rgb(88, 105, 127)), url(../../images/bg2.png);
   text-align: center;
   /* border-top-left-radius: 5px;
   border-top-right-radius: 5px; */
@@ -164,7 +164,7 @@ hr {
 .cardContainer a .card {
   margin: initial;
 } */
-#icysubtitle {
+.icysubtitle {
   padding: 1px; 
   font-size: 1.1em; 
   color:#3170a3; 
