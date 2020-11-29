@@ -1,10 +1,11 @@
-const { src, dest, series, parallel } = require('gulp');
+const { watch, src, dest, series, parallel } = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const cleanCSS = require('gulp-clean-css');
 const minify = require('gulp-minify');
 const del = require('del');
 const minifyHTML = require('gulp-minify-html');
+const gulpCleanCss = require('gulp-clean-css');
 
 const clean = () => del([ 'docs' ]);
 
