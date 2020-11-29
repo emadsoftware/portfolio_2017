@@ -1,3 +1,6 @@
+// variables
+$b-radius: 7px;
+
 html {
   padding: initial;
   font-size: 16px;
@@ -60,9 +63,13 @@ body {
   background: #f2f2f2;
 }
 
-a{
+.btn {
+  border-radius: $b-radius;
+}
+
+a {
   color: #3170a3;
-  border-radius: 5px;
+  border-radius: $b-radius;
   text-decoration: none;
   transition: color 0.7s linear;
   -o-transition: color 0.7s linear;
@@ -81,7 +88,7 @@ a:visited {
 
 a:hover {
   color: white;
-  border-radius: 5px;
+  border-radius: $b-radius;
   text-decoration: initial;
 }
 
@@ -231,14 +238,14 @@ body { margin: 0; }
 .dispimg{
   margin-top: 5px;
   padding: none; 
-  border-radius: 5px;
+  border-radius: $b-radius;
 }
 
 /* Card stuff */
 .card {
   cursor: pointer;
   transition: 0.7s;
-  border-radius: 5px;
+  border-radius: $b-radius;
   display: inline-block;
   margin: 10px;
   min-width: 90px;  
@@ -268,7 +275,7 @@ body { margin: 0; }
 .card img {
   width: 315px;
   height: 172px;
-  border-radius: 5px;
+  border-radius: $b-radius;
   filter: contrast(0.5);
   transition: .3s ease all;
 }
@@ -279,7 +286,7 @@ body { margin: 0; }
 }
 
 .container img {
-  border-radius: 5px 5px 0 0;
+  border-radius: $b-radius 5px 0 0;
 }
 
 .container p {
@@ -303,7 +310,7 @@ body { margin: 0; }
 .goUp{
   box-shadow: 0 20px 16px 0 rgba(255, 255, 255, 0.451);
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: $b-radius;
   width: 70px;
   background-color: white;
   opacity: .75;
@@ -337,7 +344,7 @@ body { margin: 0; }
 }
 
 .lightNav{
-  border-radius: 5px;
+  border-radius: $b-radius;
   display: inline-block;
   transform: scale(1);
   color: white;
@@ -534,6 +541,7 @@ top: 0;
 .modal-content {    
   box-shadow: 1px 1px 5px rgba(0,0,0,.5);
   border: initial;
+  border-radius: $b-radius;
 }
 
 .cust-modal-header {
@@ -541,7 +549,7 @@ top: 0;
   background: linear-gradient(360deg, rgb(52, 109, 183) 50%, rgb(61, 121, 199) 51%, rgb(128, 163, 209) 103%, rgb(54, 70, 124));
   color: white;  
   padding: 1rem;
-  border-radius: 5px 5px 0 0;
+  border-radius: $b-radius $b-radius 0 0;
 }
 
 .cust-modal-header h2 {
@@ -598,12 +606,13 @@ a:focus, a:hover {
   margin: 1.75rem auto 1rem;
   display: block;
   width: 125px;  
+  border-radius: $b-radius;
 }
 
 .cust-button:hover {
   background-color: #6f8197;
   border: 1px solid rgb(171, 171, 171);
-  border-radius: 5px;
+  border-radius: $b-radius;
 }
 
 .cust-ease {

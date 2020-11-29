@@ -21,7 +21,8 @@ function imgs(){
 }
 
 function styles() {
-    return src('src/lib/style.css', { allowEmpty: true })
+    return src('src/lib/style.scss', { allowEmpty: true })
+        .pipe(sass().on('error', sass.logError))
         .pipe(cleanCSS())
         .pipe(rename({
             basename: 'main',
